@@ -1,0 +1,39 @@
+// we can write line comments like this
+/* we can also write block
+comments like this */
+
+// variable declaration
+const string c1;
+int i;
+bool b1;
+float f1;
+
+// variable assignment
+b1 = true;
+i = 1;
+f1 = "william"; // should result in an error
+
+
+// conditional / if / else, etc.
+if (1 < 2 && 3 < 4) {
+  print("good!");
+  print("the world is good");
+} else {
+  print("something's wrong");
+}
+
+// literals
+"Strings use double quotes";
+true;
+false;
+1230210;
+12302.12030;
+
+// function definition
+int sayHi(string name) {
+  print("hi " + name);
+  return 0;
+}
+
+// function call
+sayHi("Zhi");
