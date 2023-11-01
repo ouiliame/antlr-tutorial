@@ -1,0 +1,16 @@
+{
+  "name": "cosmology-antlr-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "William Chen <william@terran.one>",
+  "license": "MIT",
+  "scripts": {
+    "antlr": "antlr4ts -visitor ./grammar/MyLang.g4 -o ./src"
+  },
+  "devDependencies": {
+    "antlr4ts": "^0.5.0-alpha.4",
+    "antlr4ts-cli": "^0.5.0-alpha.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
